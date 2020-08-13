@@ -5,7 +5,7 @@ client = socket.socket()
 
 port = 8500
 
-client.connect(('127.0.0.1',port))
+client.connect(('<Provide ip of raspberry pi>',port))
 	
 while True:
 	data = open_py.record()
